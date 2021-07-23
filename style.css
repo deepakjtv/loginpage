@@ -1,0 +1,87 @@
+*,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+form {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #ffdead;
+    border-radius: 10px;
+}
+
+form h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+form label {
+    font-size: 2rem;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    background: none;
+    display: block;
+    padding: 5px;
+    margin: 10px auto;
+    width: 200px;
+    border: 2px solid red;
+    border-radius: 25px;
+    outline: none;
+    text-align: center;
+    color: red;
+    transition: .25s;
+    font-size: 1.5rem;
+}
+
+form input[type="text"]:hover,
+form input[type="password"]:hover {
+    width: 250px;
+}
+
+
+/* form input[type="checkbox"] {
+    display: inline;
+    height: 20px;
+    width: 20px;
+} */
+
+form button {
+    width: 70px;
+    display: inline-block;
+    margin: auto;
+    background: none;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #ff0000;
+    font-size: 1.5rem;
+}
+
+form a {
+    display: block;
+    margin: 20px auto;
+    font-size: 1.5rem;
+}
+
+form a:link {
+    color: #0000ff;
+}
+
+form a:hover {
+    color: #ff0000;
+}
+
+form a:active {
+    color: #ffff00;
+}
